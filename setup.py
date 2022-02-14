@@ -13,7 +13,8 @@ with open('CHANGELOG.rst') as changelog_file:
 
 install_requires = [
     'requests>=2.20.0',
-    'planetmint-cryptoconditions>=0.9.0',
+    #'planetmint-cryptoconditions>=0.9.0',
+    'planetmint-cc @ git+https://github.com/planetmint/cryptoconditions.git@gitzenroom',
     'pysha3~=1.0.2',
     'python-rapidjson~=0.6.0',
     'python-rapidjson-schema==0.1.1',
